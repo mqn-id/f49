@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Quicksand', 'Montserrat', sans-serif;
+}
+a{
+  text-decoration:none;
+}
+header {
+  height: 70px;
+  width: 100%;
+  background-color: #00A7F5;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+  font-family: 'Montserrat', sans-serif;
+  color:#f7f7f7;
+  font-size:30px;
+  font-weight: bold;
+  padding-top:20px
+ }
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 70px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+.top-main {
+  padding: 180px 0 100px 0;
+  background-image: linear-gradient(159deg, rgba(0,198,255,0.6) 0%, rgba(0,198,255,0.6) 35%, rgba(0,114,255,0.6) 100%) , url(../img/topheader.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.top-main h1 {
+  text-transform: uppercase;font-size:35px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+.top-main h1 span {
+  color:#FF5D52
+}
+.top-main p span {
+  color:#FF5D52;
+  font-weight: bold;
+}
+.top-main p {
+  font-size:20px;
+  line-height: 30px;
+  margin-bottom: 3px;
+  color: white;
+}
+.btn-wrapper a{ 
+  color:#fff;
+  text-align: center;
+  margin-top: 20px;
+  border: none;
+  box-shadow: 0 7px #da473d;
+  padding: 15px 35px;
+  transition: all .5s;
+  z-index: 1;
+  text-transform: capitalize;
+  border-radius: 30px;display: inline-block;
+  cursor: pointer;
+  position: relative;
+  font-weight: 700;
+  font-size: 17px;
+  background: linear-gradient(to bottom right,#ff416c,#fa4612);
+}
+
+.btn-wrapper a:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.search-main{
+  background-color: #efedf1;
+  padding-bottom: 25px;
+  padding-top: 25px;  
+}
+.item-domain{
+  align-items: center !important;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.search-text{
+  float: left;
+  width: 50%;
+  position: relative;
+}
+.search-text h2{
+font-size:29px;
+}
+.search-domain{
+  float: left;
+  width: 50%;
+  position: relative;
+}
+.domain-wrap{
+  display: flex;
+   flex-direction: row;
+}
+.input-domain{
+  height: 50px;
+  font-size: 16px;
+  padding: 5px 20px;
+  margin-bottom:2px;
+  border-radius: 30px;
+  border: none;
+  display: block;  
+  flex-basis: 75%;
+  
+}
+.button-domain{
+  color:#fff;
+  text-align: center;
+  border: none;
+  transition: all .5s;
+  z-index: 1;
+  text-transform: capitalize;
+  border-radius: 30px;
+  cursor: pointer;
+  position: relative;
+  font-weight: 700;
+  font-size: 16px;
+  background: linear-gradient(to bottom right,#ff416c,#fa4612);
+  flex-basis: 25%;
+}
+.domain-wrap .button-domain:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+  .contents {
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+  
+  .heading {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  .content {
+    float: left;
+    width: 25%;
+  }
+  
+  .content-icon {
+    position: relative;
+  }
+  .content-icon img {
+      width: 150px;
+      height: 150px;
+  }
+  .text-judul {
+    position: relative;
+    font-weight: bold;
+    font-style: bold;
+    color: coral;
+  }
+  
+  .text-info {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #5f5d60;
+  }
+
+  .heading-product {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+
+  .product-wrapper {
+    background-color:white;
+    text-align: center;
+  }
+  
+  .product {
+    float: left;
+    width: 33%;
+    background-color: rgb(244, 244, 244);
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+  }
+
+  .judul-product {
+    background-color: rgb(83, 109, 254);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+  }
+
+  .judul-product h2 {
+    color: whitesmoke;
+    display: inline-block;
+  }
+
+  .product ul li {
+    line-height: 40px;
+    list-style: outside none;
+    margin-left: -45px;
+    text-align: center;
+  }
+  
+  .product .left {
+    display: inline-block;
+    line-height: 40px;
+    margin-right: 10px;
+    text-align: right;
+    width: 48%;
+    color: #5f5d60;
+  }
+
+  .product .right {
+    display: inline-block;
+    line-height: 40px;
+    text-align: left;
+    width: 48%;
+    color: #5f5d60;
+  }
+  
+  .product-icon {
+    position: relative;
+  }
+  
+  .product-icon p {
+    position: absolute;
+    top: 4%;
+    width: 100%;
+    color: white;
+  }
+  
+  .txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+
+
+  
+  .logo {
+    width: 220px;
+    margin-top: 140px;
+  }
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+
+  .message-heading h1 {
+    padding-top: 50px;
+  }
+  .message {
+    padding: 15px 40px;
+    background: linear-gradient(to bottom right,#ff416c,#fa4612);;
+    cursor: pointer;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 700;
+    box-shadow: 0 7px #da473d;
+  }
+
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+
+  footer img {
+    width: 125px;
+    margin-top: 10px;
+  }
+
+  footer p {
+    color: #b3aeb5;
+    font-size: 16px;
+    margin: 5px 10px;
+  }
+
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .footer-logo {
+    float: left;
+    color:#00A7F5;
+    font-size:30px;
+    font-weight: bold;
+    padding-right: 20px;
+  }
+
+  .clear {
+    clear:left;
+}
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    /* Gantikan property display ke none */
+    display:none;
+  }
+  
